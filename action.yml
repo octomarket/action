@@ -1,0 +1,9 @@
+name: octomarket-action
+description: Provision SaaS services for your pull requests
+inputs:
+  service:
+    description: the service to provision
+    required: true
+runs:
+  using: node12
+  main: index.js
